@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@android:color/holo_red_dark</item>
+
+        <!--<item name="android:windowAnimationStyle">@style/MainActivityAnimation</item>-->
+
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="android:windowEnterTransition">@android:transition/slide_top</item>
+        <item name="android:windowExitTransition">@android:transition/slide_bottom</item>
+
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+
+        <!--<item name="android:windowReturnTransition">@android:transition/slide_right</item>-->
+        <!--<item name="android:windowReenterTransition">@android:transition/slide_right</item>-->
+    </style>
+
+    <style name="MainActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+
+        <!--<item name="android:activityCloseEnterAnimation">@android:anim/slide_in_left</item>-->
+        <!--<item name="android:activityCloseExitAnimation">@android:anim/slide_out_right</item>-->
+    </style>
+
+    <style name="OtherTheme" parent="AppTheme">
+        <!--<item name="android:windowAnimationStyle">@style/OtherActivityAnimation</item>-->
+        <item name="android:windowBackground">@android:color/holo_orange_dark</item>
+    </style>
+
+    <style name="OtherActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+</resources>

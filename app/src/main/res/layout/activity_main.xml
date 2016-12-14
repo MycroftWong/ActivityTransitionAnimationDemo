@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mycroft.activitytransitionanimationdemo.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="other"
+        android:text="other"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="64dp"
+        android:transitionName="image"
+        android:onClick="transitionOther"
+        android:layout_height="64dp"
+        android:background="@android:color/white"
+        android:src="@mipmap/ic_launcher"/>
+</LinearLayout>
