@@ -113,8 +113,24 @@ Android 5.0加入 Activity Transition 动画之后确实提供了一种不一样
 
 
 ## TODO
-内容显示在status bar下面
+- 内容显示在status bar下面
 
+参考地址
+
+[Lollipop : draw behind statusBar with its color set to transparent](http://stackoverflow.com/questions/27856603/lollipop-draw-behind-statusbar-with-its-color-set-to-transparent)
+
+[android:fitsSystemWindows not working](http://stackoverflow.com/questions/28205473/androidfitssystemwindows-not-working)
+
+
+- 代码实现Selector
+
+[用代码来实现selector](http://blog.csdn.net/u013807286/article/details/52190113)
+
+- Transition
+
+[](http://blog.csdn.net/jjwwmlp456/article/details/40617495)
+
+[](http://blog.csdn.net/luoshengyang/article/details/8596449)
 
 
 
